@@ -1,0 +1,10 @@
+[package]
+name = "rust_dataframe"
+version = "0.1.0"
+edition = "2021"
+authors = ["javier"]
+
+[dependencies]
+polars = { version = "0.25.1", features = ["lazy", "csv-file"] }
+polars-io = "0.25.1"
+polars-lazy = "0.25.1"
